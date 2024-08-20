@@ -1,0 +1,59 @@
+/* Media Queries para telas até 1024px */
+@media (max-width: 1024px) {
+    .menu {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    img {
+        width: 100px;
+        height: 120px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Media Queries para telas até 768px */
+@media (max-width: 768px) {
+    .menu {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* Media Queries para telas até 480px */
+@media (max-width: 480px) {
+    .menu {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+
+    img {
+        width: 60px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
